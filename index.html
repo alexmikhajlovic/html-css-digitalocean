@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigitalOcean – The developer cloud</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
@@ -13,36 +14,49 @@
     <!-- ... -->
     <header>
          <div class="container debug">
+
              <div class="row">
                  <!-- Logo -->
-                 <div class="col-xs-2">
+                 <div class="col-xs-2 ">
                     <a href="http://" target="_blank" rel="noopener noreferrer"><img src="img/digitalocean-logo.svg" alt="Digital Ocean Logo"></a>
                  </div>
 
                  <!-- Central NavBar -->
-                 <div class="col-xs-6">
-                    Nav cx
+                 <div class="col-xs-5">
+                    NavBar cx
                  </div>
 
                  <!-- Right NavBar -->
-                 <div class="col-xs-4 text-right">
-                    Nav rx
+                 <div class="col-xs-5 text-right">
+                     NavBar rx
                  </div>
              </div>
+
          </div>   
+         
     </header>
 
     <!-- JUMBOTRON -->
-    <div class="container-fluid jumbotron debug">
+    <div class="jumbotron">
         <div class="container">
             <div class="row">
 
                 <div class="col-xs-12 col-sm-7">
-
+                    <h1>The simplest cloud platform for developers &amp; teams</h1>
+                    <p>Deploy, manage and scale colud applications faster and more efficently on DigitalOcean. We make managing infrastucture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                 </div>
 
-                <div class="col-xs-12 col-sm-5">
-
+                <div class="col-xs-12 col-md-5 text-center log">
+                    <h2>Deploy your app in seconds.</h2>
+                    <h3>Get started now.</h3>
+                    <form action="">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Create your account</button>
+                        <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline my_btn_g" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sign up with Google</a>
+                    </form>
+                    <p class="our_terms">By signing up you agree to the <a href="http://" target="_blank" rel="noopener noreferrer">Terms of service</a>.</p>
+                </div>
                 </div>
 
             </div>
@@ -108,33 +122,49 @@
                     <div class="row">
                         <div class="col-xs-12 text-center pb-30">
                             <h2>Deply and scale seamlessly</h2>
-                            <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI &amp; machine learning workloads, hosted services, client websites, or CI&sol;CD environments.</p>
+                            <p class="p_large_grey">Our optimized configuration process saves your team time when running and scaling distributed applications, AI &amp; machine learning workloads, hosted services, client websites, or CI&sol;CD environments.</p>
                         </div>
                     </div>
                 </div>  
                 
-                <div class="container debug">
+                <div class="container">
                     <div class="row">
                         <!-- List with border left -->
                         <div class="col-xs-12 col-sm-4">
-
+                            <ul>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer">Deploy</a></li>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer">Manage</a></li>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer">Secure</a></li>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer">Scale</a></li>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer">Monitor</a></li>
+                            </ul>
                         </div>
 
                         <!-- Info -->
                         <div class="col-xs-12 col-sm-4">
-
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/16ae92b4-6939-446c-b6a3-0ffec01cdc14_kublogoicon.svg" alt="Helm icon">
+                            <h4>Kubernetes in minutes</h4>
+                            <p class="p_grey">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-4">
-
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/9d343e9c-fe74-4979-8ad9-e8efc58d6ee7_dropletinboxicon.svg" alt="Glass box icon">
+                            <h4>Flexible compute types</h4>
+                            <p class="p_grey">With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
                         </div>
-
-                        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-
+                        <div class="col-sm-4">
+                            
                         </div>
-
                         <div class="col-xs-12 col-sm-4">
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/fe503988-b608-4666-8824-e9f37681a852_featured-AP-icon.svg" alt="Rocket icon">
+                            <h4>App Platform</h4>
+                            <p class="p_grey">Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll handle the infrastructure, app runtimes, and dependencies, so that you can push code to production in just a few clicks.</p>
+                        </div>
 
+                        <div class="col-xs-12 col-sm-4 ">
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/936bb585-99ba-460d-ae2f-7bbdae8896cc_stacksplusicon.svg" alt="Multitasking icon">
+                            <h4>Kubernetes in minutes</h4>
+                            <p class="p_grey">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +191,7 @@
                             <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fas fa-chevron-left"></i></a>
                         </div>
 
-                        <div class="col-xs-12 col-md-8">
+                        <div class="col-xs-12 col-md-12 col-lg-8">
                             <img src="img/screenshot-create-droplet-12336b41.jpg" alt="Our steps">
                         </div>
 
@@ -187,7 +217,7 @@
         </section>
 
         <!-- FEATURES section -->
-        <section id="features" class="debug">
+        <section id="features">
 
                 <!-- Title -->
                 <div class="container">
@@ -202,15 +232,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
-
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/7531f96f-5414-42c2-ba65-0d705769c62f_icon-check-shield.svg" alt="Secured icon">
+                            <h4>Reliable platform</h4>
+                            <p class="p_grey">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99&percnt; uptime SLA for all services.</p>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Securiy &gt;</a>
                         </div>
 
                         <div class="col-xs-12 col-sm-4">
-
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/4083b409-5e65-4403-86a8-7ed8f501a0d8_icon-task-list-multiple.svg" alt="Secured icon">
+                            <h4>Predictable pricing</h4>
+                            <p class="p_grey">Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Pricing &gt;</a>
                         </div>
 
                         <div class="col-xs-12 col-sm-4">
-
+                            <img src="https://prismic-io.s3.amazonaws.com/www-static/fccb0e1b-4de3-4b58-9f3e-5455f5c3aeae_icon-headphones-customer-support-human.svg" alt="Secured icon">
+                            <h4>World-class service</h4>
+                            <p class="p_grey">Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love..</p>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Support &gt;</a>
                         </div>
                     </div>
                 </div>
@@ -236,8 +275,8 @@
                         <!-- Left Col -->
                         <div class="col-xs-12 col-md-6 p-20">
                             <div class="row">
-
-                                <div class="col-xs-12">
+                                <!-- 1 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -250,8 +289,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 2 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -264,8 +303,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 3 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -278,8 +317,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 4 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -292,8 +331,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 5 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -306,7 +345,7 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                <!-- 6 -->
                                 <div class="col-xs-12">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
@@ -327,8 +366,8 @@
                         <!-- Right Col -->
                         <div class="col-xs-12 col-md-6 p-20">
                             <div class="row">
-
-                                <div class="col-xs-12">
+                                <!-- 7 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -341,8 +380,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 8 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -355,8 +394,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 9 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -369,8 +408,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 10 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -383,8 +422,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-xs-12">
+                                <!-- 11 -->
+                                <div class="col-xs-12 bor_bottom">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
                                             AMS2
@@ -397,7 +436,7 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                 <!-- 12 -->                       
                                 <div class="col-xs-12">
                                     <div class="row">
                                         <div class="col-xs-3 text-uppercase">
@@ -433,14 +472,18 @@
                     </div>
                 </div>
 
-                <div class="container debug">
+                <div class="container">
                     <div class="row">
                         <div class="xs-display-none col-md-2 text-right">
                             <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fas fa-chevron-left"></i></a>
                         </div>
 
-                        <div class="col-xs-12 col-md-8">
-                            
+                        <div class="col-xs-12 col-md-12 col-lg-8 text-center box_white">
+                            <img src="img/rockerbox-logo.png" alt="RocherBox Logo">
+                            <p class="p_large_grey">&QUOT;We have been abto to make scaling the technical infrastrcture of our business cost effective and efficient.&QUOT;</p>
+                            <p><strong>Alex Greco</strong></p>
+                            <p class="p_grey text-uppercase">CEO</p>
+                            <a href="http://" target="_blank" rel="noopener noreferrer" class="m-20">Read Story &GT;</a>
                         </div>
 
                         <div class="xs-display-none col-md-2">
@@ -480,11 +523,13 @@
     </main>
     <!-- ... -->
     <footer>
-            <div class="container debug">
+            <div class="container p-20">
                 <div class="row">
                     <!-- Copyright, logo, socials -->
                     <div class="col-xs-12 col-md-4">
-                        
+                        <a href="http://" target="_blank" rel="noopener noreferrer"><img src="img/mini-logo.png" alt=""></a>
+                        <p class="p_large_grey">&COPY; 2020 DigitalOcean, LLC. All rights reserved.</p>
+                        <p class="p_grey">Proudly made in NY</p>
                     </div>
 
                     <!-- Company -->
