@@ -1,0 +1,109 @@
+/* debug */
+  .debug .row [class*="col-"] {
+    background-color: pink;
+    border: 1px solid black;
+  }
+  .debug .row {
+    height: 80px;
+    /* line-height: 150px; */
+  }
+  .debug .row [class*="col-"] {
+    height: 100%;
+    /* text-align:center; */
+  }
+  .debug .row .row [class*="col-"] {
+    background-color: coral;
+    border: 2px solid white;
+  }
+  .debug .row .row {
+    padding: 5px;
+  }
+
+  /* My FRAMEWORK */
+  .p-20{
+    padding: 20px;
+  }
+  .pb-30{ padding-bottom: 30px;}
+
+  /* HEADER */
+  header{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid black;
+  }
+  header img{
+    width: 100%;
+    padding-bottom: 3px;
+  }
+  /* JUMBOTRON */
+  .jumbotron{
+    height: 500px;
+    background-image: url('../img/bg-home-1.jpg');
+    margin-bottom: 0;
+  }
+  /* ... */
+
+
+  /* MAIN */
+  /* CUSTOMERS section */
+  #customers{
+    background-color: rgb(233, 233, 233);
+  }
+  #customers h3{
+    font-size: 20px;
+    color: grey;
+    padding: 20px 0;
+  }
+  #customers a img{
+    width: 100%;
+    padding: 30px 0;
+  }
+  /* ... */
+
+  /* DEPLOY section */
+  #deploy{
+    padding: 30px 0;
+  }
+  /* ... */
+
+  /* PANEL & API Section */
+  #panel-api{
+    padding: 30px 0;
+    background-color: rgb(233, 233, 233);
+  }
+  #panel-api img{
+    width: 100%;
+    vertical-align: auto;
+  }
+  #panel-api i{
+    font-size: 50px;
+    color: #021d4c;
+    vertical-align: auto;
+    margin-top: 170px;
+  }
+  #panel-api .container:last-child a i{
+    color: #0069ff;
+    font-size: unset;
+    margin: auto;
+  }
+  /* ... */
+
+  /* FEATURES section */
+  #features{
+    padding: 30px 0;
+    background: linear-gradient(180deg,#0047c5, #001e9a);
+  }
+  /* ... */
+
+  /* AROUND section */
+  #around{
+    padding: 30px;
+  }
+
+
+  /* Media Query responsive */
+@media screen and (max-width:992px) {
+  .xs-display-none{
+    display: none;
+  }
+}  
