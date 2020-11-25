@@ -20,6 +20,9 @@
   }
 
   /* My FRAMEWORK */
+  .m-20{
+    margin: 20px;
+  }
   .p-20{
     padding: 20px;
   }
@@ -91,19 +94,50 @@
   /* FEATURES section */
   #features{
     padding: 30px 0;
-    background: linear-gradient(180deg,#0047c5, #001e9a);
   }
   /* ... */
 
   /* AROUND section */
   #around{
     padding: 30px;
+    background: linear-gradient(180deg,#0047c5, #001e9a);
+    color: white;
+  }
+
+  /* REVIEW section */
+  #review{
+    padding: 30px 0;
+    background-color: rgb(233, 233, 233);
+  }
+  /* ... */
+
+  /* GET STARTED section */
+  #get-started{
+    padding: 30px 0;
+    background: linear-gradient(180deg,#0047c5, #001e9a);
+    color: white;
+  }
+  #get-started button{
+    color: #0069fe;
+  }
+  /* ... */
+
+  /* FOOTER */
+  footer{
+    background-color: #010e28;
+    color: white;
   }
 
 
-  /* Media Query responsive */
+
+
+
+/* ...................................................................... */
+
+/* Media Query responsive */
 @media screen and (max-width:992px) {
   .xs-display-none{
     display: none;
   }
 }  
+/* ...................................................................... */
