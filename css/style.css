@@ -37,6 +37,7 @@
   }
   /* ... */
 
+  
   /* HEADER */
   header{
     width: 100%;
@@ -214,8 +215,8 @@
     background: linear-gradient(180deg,#0047c5, #001e9a);
     color: white;
   }
- 
   /* ... */
+
 
   /* FOOTER */
   footer{
