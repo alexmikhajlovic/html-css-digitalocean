@@ -39,10 +39,17 @@
 
   /* HEADER */
   header{
+    width: 100%;
     border-bottom: 1px solid black;
+    background-color: #fff;
     height: 80px;
     line-height: 80px;
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
   header a img{
     /* width: 100%; */
@@ -66,6 +73,7 @@
   .jumbotron{
     background-image: url('../img/bg-home-1.jpg');
     margin-bottom: 0;
+    margin-top: 80px;
   }
   .jumbotron h1{
     font-size: 70px;
