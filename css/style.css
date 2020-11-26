@@ -296,5 +296,10 @@
   .mex{
     display: none;
   }
-}  
+} 
+@media screen and (max-width:768px) {
+  #customers a img{
+    width: 60%;
+  }
+}
 /* ...................................................................... */
