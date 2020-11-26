@@ -37,7 +37,7 @@
   }
   /* ... */
 
-  
+
   /* HEADER */
   header{
     width: 100%;
@@ -244,12 +244,56 @@
     line-height: 1.6;
   }
 
-
+  /* Fixed Message */
+  .mex{
+    display: inline;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+  }
+  .mex .comic{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    display: none;
+    z-index: 4;
+  }
+  .mex .comic p{
+    padding: 0 10px;
+  }
+  .mex .comic i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: -10px;
+    bottom: 2%;
+  }
+  .mex .shark img{
+    display: inline;
+    width: 50px;
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    bottom: -6px;
+    padding-bottom: 10px;
+    z-index: 5;
+  }
+  .mex .shark:hover + .comic{
+    display: block;
+  }
+ 
 /* ...................................................................... */
 
 /* Media Query responsive */
 @media screen and (max-width:992px) {
   .xs-display-none{
+    display: none;
+  }
+  .mex{
     display: none;
   }
 }  
